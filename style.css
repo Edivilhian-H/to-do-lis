@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  outline: none;
+  border: none;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vw;
+
+  background: linear-gradient(41deg);
+}
+
+.title {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.title > h1 {
+  font-size: 37px;
+  text-shadow: 1px 1px 2px black;
+}
+
+.wrapping {
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 1px 1px 2px black;
+  padding: 20px;
+}
+.form {
+  margin: 0 50px;
+}
+
+.form input {
+  width: 200px;
+  height: 30px;
+  padding-left: 5px;
+  box-shadow: 0px 0px 2px black;
+  font-size: 16px;
+
+  cursor: pointer;
+}
+
+.form button {
+  height: 30px;
+  padding: 5px;
+  cursor: pointer;
+  box-shadow: 0px 0px 2px black;
+}
+
+.tasks {
+  margin: 50px 0px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.tasks ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style-type: none;
+  width: 100%;
+}
+
+.tasks > ul > li {
+  border: solid 1px rebeccapurple;
+  padding: 10px;
+  font-size: 20px;
+  width: 400px;
+  
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.tasks > ul > li > button{
+ cursor: pointer;
+}
+
+.tasks > ul > li > button > img{
+    font-size: 10px;
+    width: 20px;
+    background: transparent;
+    
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 40px;
+  box-shadow: 1px 1px 2px black;
+}
